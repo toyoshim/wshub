@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/'));
 var server = http.createServer(app);
 server.listen(port);
 
-console.log('listening on %d', port);
+console.log('cedar-18/listening on %d', port);
 
 var ws = new WebSocketServer({server: server});
 
